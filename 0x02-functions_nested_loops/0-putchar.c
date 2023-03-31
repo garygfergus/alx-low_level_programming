@@ -1,16 +1,19 @@
-#include "holberton.h"
+es (16 sloc)  241 Bytes
+
+#include "main.h"
 /**
- * main - prints the string "Holberton" from a character array.
- * Return: 0 on success.
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-	char c[] = "Holberton";
-	int i;
+	char abe[] = "_putchar";
 
-	for (i = 0; i < 9; i++)
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(c[i]);
+		_putchar(abe[c]);
 	}
 	_putchar('\n');
 	return (0);
